@@ -1,4 +1,7 @@
 /* -----------------GENERAL RULE----------------- */
+section{
+    padding: 20px;
+}
 ul li{
     display: inline-block;
 }
@@ -34,7 +37,15 @@ header ul li a{
 }
 
 /* -----------------MAIN RULE------------------- */
+#section-1{
+    background-color: #3CBC9C;
+    color: white;
+    text-align: center;
+}
 
+#section-1 img{
+   width: 200px;
+}
 
 /* -----------------FOOTER RULE----------------- */
 
