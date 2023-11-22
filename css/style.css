@@ -1,7 +1,6 @@
 /* -----------------GENERAL RULE----------------- */
 ul li{
     display: inline-block;
-    align-items: center;
 }
 
 ul li a{
