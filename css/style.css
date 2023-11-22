@@ -1,20 +1,38 @@
-/* -----------------RESET RULE----------------- */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
 /* -----------------GENERAL RULE----------------- */
+ul li{
+    display: inline-block;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;  
+    color: black;
+}
 
 
 /* -----------------HEADER RULE----------------- */
+header{
+    background-color: #2C3E50;
+    color: white;
+}
+header > div > div.row{
+    align-items: center;
+}
 
+header .menu{
+    text-align: end;
+}
+header .menu-tb{
+    display: none;
+}
+header .menu i{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 2px 5px;
+}
+header ul li a{
+    color: white;  
+}
 
 /* -----------------MAIN RULE------------------- */
 
@@ -26,20 +44,24 @@ html{
 /* -----------------MEDIA QUERY----------------- */
 /* IN MOBILE FIRST */
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
 
 }
-@media screen and (max-width: 768px) {
-
+@media screen and (min-width: 768px) {
+    .menu-sm{
+        display: none;
+    }
+    header .menu-tb{
+        display: block;
+    }
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
 
 }
 
 
 
 /* -----------------DEBUG----------------- */
-.debug .container {
-    background-color: beige;
+.debug .container{
     border: 1px dashed red;
 }
