@@ -11,10 +11,7 @@ html{
 
 
 /* -----------------GENERAL RULE----------------- */
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-}
+
 
 /* -----------------HEADER RULE----------------- */
 
@@ -39,16 +36,7 @@ html{
 
 }
 
-/* IN DEKSTOP FIRST */
-@media screen and (min-width: 992px) {
 
-}
-@media screen and (min-width: 768px) {
-
-}
-@media screen and (min-width: 576px) {
-
-}
 
 /* -----------------DEBUG----------------- */
 .debug .container {
