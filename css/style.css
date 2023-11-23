@@ -17,10 +17,10 @@ header{
     background-color: #2C3E50;
     color: white;
 }
-header > div > div.row{
-    align-items: center;
-}
 
+header  div  ul{
+    margin-bottom: 0;
+}
 header .menu{
     text-align: end;
 }
@@ -36,6 +36,10 @@ header ul li a{
     color: white;  
 }
 
+header ul li{
+    margin-right: 15px; 
+}
+
 /* -----------------MAIN RULE------------------- */
 #section-1{
     background-color: #3CBC9C;
@@ -46,8 +50,81 @@ header ul li a{
 #section-1 img{
    width: 200px;
 }
+.rule{
+    height: 2px;
+    width: 80px;
+    background-color: white;
+}
+
+.star-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star-icon i{
+    margin: 0 15px;
+}
+
+/* SECTION 2 */
+#section-2{
+    text-align: center;
+}
+#section-2 .rule{
+    background-color: black;
+}
+
+
+/* SECTION 3 */
+#section-3{
+    background-color: #3CBC9C;
+    color: white;
+}
+
+/* SECTION 4 */
+#section-4 .rule{
+    background-color: black;
+}
+
+#section-4 form > *:not(:last-child) input,
+#section-4 form > *:not(:last-child) textarea{
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#section-4 form > *:last-child{
+    margin-top: 15px;
+}
 
 /* -----------------FOOTER RULE----------------- */
+footer > section:first-child{
+    background-color: #3A546D;
+    color: white;
+    padding: 20px 0;
+}
+footer > section:last-child{
+    background-color: #2A3C4D;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.social-network > *{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
 
 
 
@@ -72,6 +149,6 @@ header ul li a{
 
 
 /* -----------------DEBUG----------------- */
-.debug .container{
+/* .debug .container{
     border: 1px dashed red;
-}
+} */
